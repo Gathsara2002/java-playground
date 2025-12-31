@@ -19,5 +19,12 @@ public class StringMethods {
         int index = name.indexOf(" ");
         System.out.println(index);
 
+
+        String email = "John@gmail.com";
+        String username = email.substring(0,3);
+        System.out.println(username);
+        String domain = email.substring(5);
+        System.out.println(domain);
+
     }
 }
