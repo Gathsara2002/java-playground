@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -26,12 +27,20 @@ public class Loops {
 
         // Do while loop - variation of while loop but check condition at the end
 
-        int i = 0;
+//        int i = 0;
+//
+//        do {
+//            System.out.println(i);
+//            i++;
+//        }
+//        while (i < 5);
 
-        do {
-            System.out.println(i);
-            i++;
+
+        //For loop - Repeat block of code finite time
+        for (int i = 0; i < 10; i++) {
+            System.out.println("For loop running " + i);
         }
-        while (i < 5);
+
+
     }
 }
