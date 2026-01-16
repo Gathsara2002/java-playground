@@ -9,6 +9,7 @@ public class Methods {
         //Methods - Reusable block of code which only run when it's called
         //Cannot define method inside another method because java doesn't support nested methods
         //Method signature - method name + parameters
+        // Method overloading - same name but different parameter methods. (consider only method signature)
 
         subMethod1();
         subMethod2("Hello");
@@ -36,7 +37,5 @@ public class Methods {
     static String subMethod4(int param) {
         return param+ " : method overloading";
     }
-
-
 
 }
