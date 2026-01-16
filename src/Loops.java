@@ -10,17 +10,28 @@ public class Loops {
 
         //While loop - repeat block of code until condition is true
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        String name = "";
+//
+//        while (name.isBlank()) {
+//            System.out.print("Enter your name : ");
+//            name = scanner.nextLine();
+//        }
+//
+//        System.out.println("Hello " + name);
+//
+//        scanner.close();
 
-        String name = "";
 
-        while (name.isBlank()) {
-            System.out.print("Enter your name : ");
-            name = scanner.nextLine();
+        // Do while loop - variation of while loop but check condition at the end
+
+        int i = 0;
+
+        do {
+            System.out.println(i);
+            i++;
         }
-
-        System.out.println("Hello " + name);
-
-        scanner.close();
+        while (i < 5);
     }
 }
