@@ -1,3 +1,5 @@
+package fundamentals;
+
 /**
  * @author : Gathsara
  * created : 12/30/2025 -- 4:49 PM
@@ -6,7 +8,7 @@
 public class Conditions {
     public static void main(String[] args) {
 
-        //Conditions let you control the flow of the program
+        //fundamentals.Conditions let you control the flow of the program
 
         //If statement - performs a block of code if condition is true
         //Else - performs a block of code if condition is false

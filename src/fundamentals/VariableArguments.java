@@ -1,3 +1,5 @@
+package fundamentals;
+
 /**
  * @author : Gathsara
  * created : 1/17/2026 -- 1:08 PM

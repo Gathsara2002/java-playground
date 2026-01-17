@@ -1,5 +1,6 @@
+package fundamentals;
+
 import java.util.Scanner;
-import java.util.SortedMap;
 
 /**
  * @author : Gathsara
@@ -29,7 +30,7 @@ public class Arrays {
         }
 
         //Sort
-        java.util.Arrays.sort(fruits);
+        java.util.fundamentals.Arrays.sort(fruits);
         for (String fruit : fruits) {
             System.out.println(fruit);
         }*/

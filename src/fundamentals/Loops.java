@@ -1,5 +1,4 @@
-import java.math.BigInteger;
-import java.util.Scanner;
+package fundamentals;
 
 /**
  * @author : Gathsara
