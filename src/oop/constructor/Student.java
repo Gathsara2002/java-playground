@@ -14,6 +14,7 @@ public class Student {
 
     //default constructor
     public Student() {
+        System.out.println("this is default constructor");
     }
 
     public Student(String name, int age, double gpa, boolean isEnrolled) {
@@ -22,5 +23,10 @@ public class Student {
         this.age = age;
         this.gpa = gpa;
         this.isEnrolled = isEnrolled;
+    }
+
+    public Student(String name) {
+        this(); //Call default constructor if object create using this constructor. It is called constructor chaining
+        this.name = name;
     }
 }

@@ -24,6 +24,10 @@ public class Main {
         System.out.println(student2.gpa);
         System.out.println(student2.isEnrolled);
 
+        //Constructor chaining
+        Student daniel = new Student("Daniel");
+        System.out.println(daniel.name);
+
 
     }
 }
