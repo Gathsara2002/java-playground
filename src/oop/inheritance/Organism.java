@@ -10,6 +10,7 @@ public class Organism {
     boolean isAlive;
 
     Organism() {
+        System.out.println("This is organism constructor");
         isAlive = true;
     }
 }

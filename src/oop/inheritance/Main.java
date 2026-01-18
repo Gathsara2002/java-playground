@@ -8,7 +8,7 @@ package oop.inheritance;
 public class Main {
     public static void main(String[] args) {
 
-        //Inheritance - child class acquires variables and methods from parent class
+        //Inheritance - child(subclass) class acquires variables and methods from parent(superclass) class
 
         Dog dog = new Dog();
         System.out.println(dog.isAlive);
@@ -23,5 +23,7 @@ public class Main {
         Plant plant=new Plant();
         System.out.println(plant.isAlive);
         plant.photosynthesize();
+
+        //Super - used to refer superclass
     }
 }
