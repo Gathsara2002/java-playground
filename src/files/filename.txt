@@ -1,0 +1,2 @@
+This is sample text.
+Multiple line message.
