@@ -1,0 +1,10 @@
+package oop.interfaces;
+
+/**
+ * @author : Gathsara
+ * created : 1/19/2026 -- 11:35 AM
+ **/
+
+public interface Prey {
+    void flee();
+}
