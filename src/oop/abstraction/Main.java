@@ -20,6 +20,6 @@ public class Main {
 
         Triangle triangle = new Triangle(4, 8);
         System.out.println(triangle.area());
-        triangle.print();;
+        triangle.print();
     }
 }
