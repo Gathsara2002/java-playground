@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * created : 1/19/2026 -- 3:53 PM
  **/
 
-public class Main {
+public class Arraylist {
     public static void main(String[] args) {
 
         //ArrayList - resizable array that store objects
