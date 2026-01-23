@@ -6,6 +6,12 @@ package oop.staticKeyword;
  **/
 
 public class Main {
+
+    //Static block - load only once because it initiate when class loader load class to JVM
+    static{
+        System.out.println("Static block in main");
+    }
+
     public static void main(String[] args) {
 
         //Static - make variable or method belongs to class rather than any object
