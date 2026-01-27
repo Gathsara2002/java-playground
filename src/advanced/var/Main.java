@@ -18,6 +18,8 @@ public class Main {
 
         var b = 9;
 
+        var c = "Hello";
+
         var sb = new StringBuffer("Hi");
 
         var list = new ArrayList<Integer>();
@@ -28,6 +30,7 @@ public class Main {
 
         System.out.println(a);
         System.out.println(b);
+        System.out.println(c);
         System.out.println(sb);
         System.out.println(list);
     }
